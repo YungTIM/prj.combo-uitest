@@ -1,0 +1,7 @@
+{
+	"charList": [{
+		"slug": "chara_id_00",
+		"name": "Jingo",
+		"description": "asdasdasd"
+	}]
+}
