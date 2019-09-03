@@ -821,6 +821,335 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65707018}
   m_CullTransparentMesh: 0
+--- !u!1001 &75962220
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1509696919719800108, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_Name
+      value: Rewired Input Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219512386829255604, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.players.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actionCategoryMap.list.Array.data[0].actionIds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.joystickLayouts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.players.Array.data[1]._id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.players.Array.data[1]._name
+      value: Player0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.players.Array.data[1]._descriptiveName
+      value: Player0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.players.Array.data[1]._startPlaying
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.players.Array.data[1]._assignMouseOnStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.players.Array.data[1]._assignKeyboardOnStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.players.Array.data[1]._controllerMapLayoutManagerSettings._enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.players.Array.data[1]._controllerMapLayoutManagerSettings._loadFromUserDataStore
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.players.Array.data[1]._controllerMapEnablerSettings._enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.playerIdCounter
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[0]._name
+      value: Submit
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[0]._type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[0]._descriptiveName
+      value: Cancel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[0]._userAssignable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actionIdCounter
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[1]._id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[1]._name
+      value: Cancel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[1]._type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[1]._descriptiveName
+      value: Cancel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[1]._userAssignable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actionCategoryMap.list.Array.data[0].actionIds.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[2]._id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[2]._name
+      value: Action1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[2]._type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[2]._descriptiveName
+      value: Action1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actions.Array.data[2]._userAssignable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.actionCategoryMap.list.Array.data[0].actionIds.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.joystickLayouts.Array.data[1]._name
+      value: Layout0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.joystickLayouts.Array.data[1]._descriptiveName
+      value: Layout0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.joystickLayouts.Array.data[1]._id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.joystickLayoutIdCounter
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._name
+      value: Horizontal
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._joystickAxisSensitivity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._digitalAxisSimulation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._digitalAxisSnap
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._digitalAxisGravity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._digitalAxisSensitivity
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._mouseXYAxisSensitivity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._mouseOtherAxisSensitivity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._customControllerAxisSensitivity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._buttonDoublePressSpeed
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._buttonShortPressTime
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._buttonLongPressTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._buttonDeadZone
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviors.Array.data[1]._buttonRepeatRate
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875365086780331163, guid: d0e9dcd7b8217534bb9e9dd7c0f17762,
+        type: 3}
+      propertyPath: _userData.inputBehaviorIdCounter
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d0e9dcd7b8217534bb9e9dd7c0f17762, type: 3}
 --- !u!1 &163024450
 GameObject:
   m_ObjectHideFlags: 0
@@ -9318,15 +9647,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 2066239856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Script: {fileID: 11500000, guid: 10efa70eea88e69459c632aac286892d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
+  rewiredInputManager: {fileID: 0}
+  useAllRewiredGamePlayers: 0
+  useRewiredSystemPlayer: 0
+  rewiredPlayerIds: 00000000
+  usePlayingPlayersOnly: 0
+  playerMice: []
+  moveOneElementPerAxisPress: 0
+  setActionsById: 0
+  horizontalActionId: -1
+  verticalActionId: -1
+  submitActionId: -1
+  cancelActionId: -1
+  m_HorizontalAxis: DPadHorizontal
+  m_VerticalAxis: DPadVertical
+  m_SubmitButton: UISubmit
+  m_CancelButton: UICancel
   m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
+  m_RepeatDelay: 0
+  m_allowMouseInput: 1
+  m_allowMouseInputIfTouchSupported: 1
+  m_allowTouchInput: 1
   m_ForceModuleActive: 0
 --- !u!114 &2066239858
 MonoBehaviour:
