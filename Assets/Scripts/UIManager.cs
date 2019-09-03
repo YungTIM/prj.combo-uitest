@@ -12,12 +12,13 @@ public class UIManager : MonoBehaviour
     public delegate void ChangeScreen(int oldScreen, int newScreen);
     public static event ChangeScreen OnChangeScreen;
 
+
     void Start()
     {
         //SwitchScreen(displ))
     }
 
-    private void SwitchScreen(DisplayScreen screenToDisplay)
+    public void SwitchScreen(DisplayScreen screenToDisplay)
     {
         if (OnChangeScreen != null && _currentDisplayedScreen != screenToDisplay)
         {
