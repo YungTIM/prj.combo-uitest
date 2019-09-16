@@ -1,0 +1,36 @@
+rewired
+	done
+	controllers set up for p1
+
+	todo
+	controllers set up for p2 p3 p4
+
+modular extendable pages
+	todo
+	glu proj will be main legacy source
+	need to sit down and think this one through
+	which pages need to have extensions? only pages with actual animation transitions?
+
+event driven transitions
+	todo
+	delegates on button events
+
+json databases 
+	todo
+	set up database for character info
+	set up resource folder with art and icons with proper slug naming convention so we can pull with code easily
+
+locstring textfields
+	todo
+	need to set up the json database for this one 
+	set up the english locstring json that it pulls from
+	also might as well have a spanish one 
+
+animation events on UI elements
+	todo
+	just basic transitions for now
+
+char select screen
+	todo
+	weird chara select thingy needs some interesting work
+	adjusting for 1v1 or more than 1v1
