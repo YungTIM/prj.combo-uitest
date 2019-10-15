@@ -12,6 +12,10 @@ public class CursorDetection : MonoBehaviour
 
     public CharacterCellComponent currentCharacter;
 
+    private enum PlayerIndex { player_one, player_two, player_three, player_four}
+    [SerializeField]
+    private PlayerIndex playerIndex;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,11 +53,11 @@ public class CursorDetection : MonoBehaviour
         currentCharacter = ccc;
         if (ccc != null)
         {
-            CharacterSelectScreen.instance.ShowCharacterInSlot(0, ccc.charData);
+            CharacterSelectScreen.instance.ShowCharacterInSlot((int) playerIndex, ccc.charData);
         }
         else
         {
-            CharacterSelectScreen.instance.ShowCharacterInSlot(0, null);
+            CharacterSelectScreen.instance.ShowCharacterInSlot((int)playerIndex, null);
         }
     }
 }

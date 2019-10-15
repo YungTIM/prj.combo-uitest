@@ -41,18 +41,23 @@ public class CharacterSelectScreen : MonoBehaviour
         charCellComp.InstantiateImage(charData);
     }
 
-    public void ShowCharacterInSlot(int player, CharacterData character)  {
+    public void ShowCharacterInSlot(int playerIndex, CharacterData character)  {
         bool nullChar = (character == null);
-        portraits[player].GetComponent<Image>().sprite = character.sprite;
-        nameLogos[player].GetComponent<Image>().sprite = character.charLogo;
-        PortraitSwipe(portraits[player].transform);
-        mrtComponent[player].SwitchCharacterModel(character);
+        portraits[playerIndex].GetComponent<Image>().sprite = character.sprite;
+        nameLogos[playerIndex].GetComponent<Image>().sprite = character.charLogo;
+        PortraitSwipe(playerIndex);
+        mrtComponent[playerIndex].SwitchCharacterModel(playerIndex, character);
     }
 
-    private void PortraitSwipe(Transform portraitTransform)
+    private void PortraitSwipe(int playerIndex)
     {
+        Transform portraitTransform = portraits[playerIndex].transform;
         Sequence s = DOTween.Sequence();
-        s.Append(portraitTransform.DOLocalMoveX(-150, 0));
+
+        //dumb ternary crap for swiping left or right
+        int direction = playerIndex % 2 == 1 ? -1 : 1;
+
+        s.Append(portraitTransform.DOLocalMoveX(direction * -150, 0));
         s.Append(portraitTransform.DOLocalMoveX(0, .1f).SetEase(Ease.OutCubic));
     }
 }

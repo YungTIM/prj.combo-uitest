@@ -22,7 +22,7 @@ public class ModelRenderTextureComponent : MonoBehaviour
     /// alt skins = swap textures
     /// </summary>
     /// <param name="characterData"></param>
-    public void SwitchCharacterModel(CharacterData characterData)
+    public void SwitchCharacterModel(int playerIndex, CharacterData characterData)
     {
         Debug.Log("switching model to: " + characterData.character.ToString());
         int characterIndex = 0;
