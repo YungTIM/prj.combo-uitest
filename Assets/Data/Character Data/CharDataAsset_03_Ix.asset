@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b60dffd27e44528ad3555b43ade828, type: 3}
   m_Name: CharDataAsset_03_Ix
   m_EditorClassIdentifier: 
-  character: 0
+  character: 3
   sprite: {fileID: 21300000, guid: 723d5dd4e5cfc48cb87614234e0d7309, type: 3}
   spriteZoomMulti: 2
   description: 
+  charLogo: {fileID: 21300000, guid: b9f6dd21bc31c406c90f80edec493798, type: 3}

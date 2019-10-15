@@ -12,4 +12,5 @@ public class CharacterData : ScriptableObject
     public Sprite sprite;
     public float spriteZoomMulti = 1;
     public string description;
+    public Sprite charLogo;
 }

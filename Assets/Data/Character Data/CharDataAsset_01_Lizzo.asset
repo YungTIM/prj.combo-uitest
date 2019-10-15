@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b60dffd27e44528ad3555b43ade828, type: 3}
   m_Name: CharDataAsset_01_Lizzo
   m_EditorClassIdentifier: 
-  character: 0
+  character: 1
   sprite: {fileID: 21300000, guid: 1e886e8ff151148cebcd5cb94616d13b, type: 3}
   spriteZoomMulti: 2
   description: 
+  charLogo: {fileID: 21300000, guid: 93542dafebcbc42efb2ac31e958e0f46, type: 3}

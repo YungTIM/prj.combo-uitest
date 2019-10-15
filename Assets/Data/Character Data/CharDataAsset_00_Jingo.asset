@@ -16,3 +16,6 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 5a57bf9970f1e4928aab321e813b7281, type: 3}
   spriteZoomMulti: 1
   description: 
+  charLogo: {fileID: 21300000, guid: 135c5256aa18249e196c37cf5ab8ae85, type: 3}
+  characterModel: {fileID: 1498217608435322, guid: 4366a50e108c54b0ea30aeca185749fe,
+    type: 3}
