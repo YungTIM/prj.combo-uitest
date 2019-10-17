@@ -7,14 +7,14 @@ using UnityEngine.EventSystems;
 
 public class CursorDetection : MonoBehaviour
 {
+    [System.NonSerialized]
+    public int playerId;
+
     private GraphicRaycaster gr;
     private PointerEventData pointerEventData = new PointerEventData(null);
 
     public CharacterCellComponent currentCharacter;
 
-    private enum PlayerIndex { player_one, player_two, player_three, player_four}
-    [SerializeField]
-    private PlayerIndex playerIndex;
 
     // Start is called before the first frame update
     void Start()
@@ -53,11 +53,11 @@ public class CursorDetection : MonoBehaviour
         currentCharacter = ccc;
         if (ccc != null)
         {
-            CharacterSelectScreen.instance.ShowCharacterInSlot((int) playerIndex, ccc.charData);
+            CharacterSelectScreen.instance.ShowCharacterInSlot(playerId, ccc.charData);
         }
         else
         {
-            CharacterSelectScreen.instance.ShowCharacterInSlot((int)playerIndex, null);
+            CharacterSelectScreen.instance.ShowCharacterInSlot(playerId, null);
         }
     }
 }
