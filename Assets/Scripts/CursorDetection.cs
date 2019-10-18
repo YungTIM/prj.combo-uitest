@@ -15,6 +15,8 @@ public class CursorDetection : MonoBehaviour
 
     public CharacterCellComponent currentCharacter;
 
+    public Transform token;
+    public bool hasToken;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +26,32 @@ public class CursorDetection : MonoBehaviour
 
     void Update()
     {
+        if (hasToken)
+        {
+            token.position = transform.position;
+        }
+
         HandleCharSelect();
+    }
+
+    private void HandleInput()
+    {
+        //CONFIRM
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            if (currentCharacter != null)
+            {
+                TokenFollow(false);
+                CharacterSelectScreen.instance.ConfirmCharacter(0, CharacterSelectScreen.instance.characters[(int)currentCharacter.charData.character]);
+            }
+        }
+
+        //CANCEL
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            CharacterSelectScreen.instance.confirmedCharacter = null;
+            TokenFollow(true);
+        }
     }
 
     //temp switch to idk rewired or someshit, although i guess we should support mouse selection too
@@ -59,5 +86,10 @@ public class CursorDetection : MonoBehaviour
         {
             CharacterSelectScreen.instance.ShowCharacterInSlot(playerId, null);
         }
+    }
+
+    void TokenFollow(bool trigger)
+    {
+        hasToken = trigger;
     }
 }

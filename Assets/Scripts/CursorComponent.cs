@@ -17,6 +17,5 @@ public class CursorComponent : MonoBehaviour
         cursorMovement.playerId = (int)playerIndex;
         cursorDetection = gameObject.AddComponent<CursorDetection>();
         cursorDetection.playerId = (int) playerIndex;
-
     }
 }

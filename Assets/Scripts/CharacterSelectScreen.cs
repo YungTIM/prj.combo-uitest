@@ -13,6 +13,8 @@ public class CharacterSelectScreen : MonoBehaviour
     public GameObject characterCellObj;
     public Transform gridTransform;
 
+    public CharacterData[] confirmedCharacter = new CharacterData[2];
+
     [SerializeField]
     private Image[] portraits;
     [SerializeField]
@@ -59,5 +61,14 @@ public class CharacterSelectScreen : MonoBehaviour
 
         s.Append(portraitTransform.DOLocalMoveX(direction * -150, 0));
         s.Append(portraitTransform.DOLocalMoveX(0, .1f).SetEase(Ease.OutCubic));
+    }
+
+    public void ConfirmCharacter(int playerIndex, CharacterData charData)
+    {
+        if (confirmedCharacter[playerIndex] == null)
+        {
+            confirmedCharacter[playerIndex] = charData;
+            //playerSlotsContainer.GetChild(playerIndex).DOPunchPosition(Vector3.down * 3, .3f, 10, 1);
+        }
     }
 }
