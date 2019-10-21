@@ -14,7 +14,6 @@ public class CursorMovement : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("reqired pid: " + playerId);
         player = ReInput.players.GetPlayer(playerId);
     }
 

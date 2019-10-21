@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
+using Rewired;
+
 public class CursorDetection : MonoBehaviour
 {
     [System.NonSerialized]
@@ -18,38 +20,47 @@ public class CursorDetection : MonoBehaviour
     public Transform token;
     public bool hasToken;
 
+    private Player player; // The Rewired Player
+    private bool inputConfirm;
+    private bool inputCancel;
+
     // Start is called before the first frame update
     void Start()
     {
         gr =  GetComponentInParent<GraphicRaycaster>();
+        player = ReInput.players.GetPlayer(playerId);
     }
 
     void Update()
     {
+        HandleInput();
+
         if (hasToken)
         {
             token.position = transform.position;
+            HandleCharSelect();
         }
-
-        HandleCharSelect();
     }
 
     private void HandleInput()
     {
+        inputConfirm = player.GetButtonUp("Confirm");
+        inputCancel = player.GetButtonUp("Cancel");
+
         //CONFIRM
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (inputConfirm)
         {
             if (currentCharacter != null)
             {
                 TokenFollow(false);
-                CharacterSelectScreen.instance.ConfirmCharacter(0, CharacterSelectScreen.instance.characters[(int)currentCharacter.charData.character]);
+                CharacterSelectScreen.instance.ConfirmCharacter(playerId, CharacterSelectScreen.instance.characters[(int)currentCharacter.charData.character]);
             }
         }
 
         //CANCEL
-        if (Input.GetKeyDown(KeyCode.X))
+        if (inputCancel)
         {
-            CharacterSelectScreen.instance.confirmedCharacter = null;
+            CharacterSelectScreen.instance.confirmedCharacter[playerId] = null;
             TokenFollow(true);
         }
     }
@@ -64,7 +75,7 @@ public class CursorDetection : MonoBehaviour
         if (results.Count > 0)
         {
 			CharacterCellComponent ccc = results[0].gameObject.GetComponent<CharacterCellComponent>();
-            if (currentCharacter != ccc)
+            if (currentCharacter != ccc || currentCharacter == null)
             {
                 if (ccc != null)
                 {

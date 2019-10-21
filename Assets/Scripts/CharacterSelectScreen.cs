@@ -13,7 +13,7 @@ public class CharacterSelectScreen : MonoBehaviour
     public GameObject characterCellObj;
     public Transform gridTransform;
 
-    public CharacterData[] confirmedCharacter = new CharacterData[2];
+    public List<CharacterData> confirmedCharacter = new List<CharacterData>();
 
     [SerializeField]
     private Image[] portraits;

@@ -11,11 +11,15 @@ public class CursorComponent : MonoBehaviour
     private CursorMovement cursorMovement;
     private CursorDetection cursorDetection;
 
+    public Transform token;
+
     void Start ()
     {
         cursorMovement = gameObject.AddComponent<CursorMovement>();
         cursorMovement.playerId = (int)playerIndex;
         cursorDetection = gameObject.AddComponent<CursorDetection>();
         cursorDetection.playerId = (int) playerIndex;
+
+        cursorDetection.token = token;
     }
 }
