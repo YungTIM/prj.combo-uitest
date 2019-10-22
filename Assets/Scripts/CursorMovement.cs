@@ -19,9 +19,8 @@ public class CursorMovement : MonoBehaviour
 
     void Update()
     {
-
-        float x = player.GetAxis("Move Horizontal");
-        float y = player.GetAxis("Move Vertical");
+        float x = player.GetAxis(GameConstants.input_axis_horizontal);
+        float y = player.GetAxis(GameConstants.input_axis_vertical);
 
         transform.position += new Vector3(x, y, 0) * Time.deltaTime * speed;
 

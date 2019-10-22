@@ -13,6 +13,7 @@ public static class GameConstants
     /// <summary>
     /// 
     /// </summary>
+    
     #endregion
 
     //this needs to be refactored into a look table-lookup using json
@@ -37,5 +38,16 @@ public static class GameConstants
     #region AnimStrings 
     public static string SHOW_ANIMATOR_PARAMETER = "show";
     public static string HIDE_ANIMATOR_PARAMETER = "hide";
+    #endregion
+
+    #region InputConstants
+    public static string input_confirm = "Confirm";
+    public static string input_cancel = "Cancel";
+
+    public static string input_dpad_up = "DPadUp";
+    public static string input_dpad_down = "DPadDown";
+
+    public static string input_axis_horizontal = "Move Horizontal";
+    public static string input_axis_vertical = "Move Vertical";
     #endregion
 }

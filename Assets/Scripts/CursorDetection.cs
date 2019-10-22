@@ -44,8 +44,8 @@ public class CursorDetection : MonoBehaviour
 
     private void HandleInput()
     {
-        inputConfirm = player.GetButtonUp("Confirm");
-        inputCancel = player.GetButtonUp("Cancel");
+        inputConfirm = player.GetButtonUp(GameConstants.input_confirm);
+        inputCancel = player.GetButtonUp(GameConstants.input_cancel);
 
         //CONFIRM
         if (inputConfirm)
