@@ -14,11 +14,11 @@ public class CharacterCellComponent : MonoBehaviour
     public void InstantiateImage(CharacterData newCharData)
     {
         charData = newCharData;
-        iconImage.sprite = charData.sprite;
+        iconImage.sprite = charData.sprite[0];
         characterName = charData.name;
 
-        Vector2 pixelSize = new Vector2(charData.sprite.texture.width, charData.sprite.texture.height);
-        Vector2 pixelPivot = charData.sprite.pivot;
+        Vector2 pixelSize = new Vector2(iconImage.sprite.texture.width, iconImage.sprite.texture.height);
+        Vector2 pixelPivot = iconImage.sprite.pivot;
         Vector2 uiPivot = new Vector2(pixelPivot.x / pixelSize.x, pixelPivot.y / pixelSize.y);
 
         iconImage.GetComponent<RectTransform>().pivot = uiPivot;

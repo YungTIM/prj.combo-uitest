@@ -43,6 +43,8 @@ public static class GameConstants
     #region InputConstants
     public static string input_confirm = "Confirm";
     public static string input_cancel = "Cancel";
+    public static string input_action1 = "Action1";
+    public static string input_action2 = "Action2";
 
     public static string input_dpad_up = "DPadUp";
     public static string input_dpad_down = "DPadDown";

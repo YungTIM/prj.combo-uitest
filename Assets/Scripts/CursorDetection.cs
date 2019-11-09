@@ -16,6 +16,8 @@ public class CursorDetection : MonoBehaviour
     private PointerEventData pointerEventData = new PointerEventData(null);
 
     public CharacterCellComponent currentCharacter;
+    public int currentColorIndex;
+    private int displayedColorIndex;
 
     public Transform token;
     public bool hasToken;
@@ -23,6 +25,9 @@ public class CursorDetection : MonoBehaviour
     private Player player; // The Rewired Player
     private bool inputConfirm;
     private bool inputCancel;
+
+    private bool action1; //top left action button
+    private bool action2; //top right action button
 
     // Start is called before the first frame update
     void Start()
@@ -50,18 +55,44 @@ public class CursorDetection : MonoBehaviour
         //CONFIRM
         if (inputConfirm)
         {
-            if (currentCharacter != null)
+
+            if (currentCharacter != null && hasToken)
             {
                 TokenFollow(false);
                 CharacterSelectScreen.instance.ConfirmCharacter(playerId, CharacterSelectScreen.instance.characters[(int)currentCharacter.charData.character]);
             }
-        }
+            else if (!hasToken)
+            {
+                pointerEventData.position = Camera.main.WorldToScreenPoint(transform.position);
+                List<RaycastResult> results = new List<RaycastResult>();
+                gr.Raycast(pointerEventData, results);
 
+                if (results[0].gameObject.GetComponent<TokenComponent>() && results[0].gameObject.transform == token) TokenFollow(true);
+            }
+        }
+        
         //CANCEL
         if (inputCancel)
         {
-            CharacterSelectScreen.instance.confirmedCharacter[playerId] = null;
             TokenFollow(true);
+            CharacterSelectScreen.instance.ConfirmCharacter(playerId, null);
+        }
+
+        action1 = player.GetButtonUp(GameConstants.input_action1);
+        action2 = player.GetButtonUp(GameConstants.input_action2);
+
+        //COLOR SWAP
+        if (currentCharacter != null && hasToken)
+        {
+            if (action1)
+            {
+                currentColorIndex = currentColorIndex == 0 ? 0 : --currentColorIndex;
+            }
+            if (action2)
+            {
+                int maxIndex = currentCharacter.charData.sprite.Length - 1;
+                currentColorIndex = currentColorIndex == maxIndex ? maxIndex : ++currentColorIndex;
+            }
         }
     }
 
@@ -75,8 +106,9 @@ public class CursorDetection : MonoBehaviour
         if (results.Count > 0)
         {
 			CharacterCellComponent ccc = results[0].gameObject.GetComponent<CharacterCellComponent>();
-            if (currentCharacter != ccc || currentCharacter == null)
+            if (currentCharacter != ccc || currentCharacter == null || displayedColorIndex != currentColorIndex)
             {
+                if (currentCharacter != ccc) currentColorIndex = 0;
                 if (ccc != null)
                 {
                     SetCurrentCharacter(ccc);
@@ -91,16 +123,18 @@ public class CursorDetection : MonoBehaviour
         currentCharacter = ccc;
         if (ccc != null)
         {
-            CharacterSelectScreen.instance.ShowCharacterInSlot(playerId, ccc.charData);
+            CharacterSelectScreen.instance.ShowCharacterInSlot(playerId, ccc.charData, currentColorIndex);
         }
         else
         {
-            CharacterSelectScreen.instance.ShowCharacterInSlot(playerId, null);
+            CharacterSelectScreen.instance.ShowCharacterInSlot(playerId, null, currentColorIndex);
         }
+        displayedColorIndex = currentColorIndex;
     }
 
     void TokenFollow(bool trigger)
     {
         hasToken = trigger;
+        token.GetComponent<Image>().raycastTarget = !trigger;
     }
 }

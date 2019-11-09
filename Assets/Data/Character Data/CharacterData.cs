@@ -9,7 +9,7 @@ using DataModels;
 public class CharacterData : ScriptableObject
 {
     public CharacterList character;
-    public Sprite sprite;
+    public Sprite[] sprite;
     public float spriteZoomMulti = 1;
     public string description;
     public Sprite charLogo;

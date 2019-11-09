@@ -21,6 +21,8 @@ public class CharacterSelectScreen : MonoBehaviour
     private Image[] nameLogos;
     [SerializeField]
     private ModelRenderTextureComponent[] mrtComponent;
+    [SerializeField]
+    private AssistSelect[] assistSelectComponent;
 
     private void Awake()
     {
@@ -43,9 +45,9 @@ public class CharacterSelectScreen : MonoBehaviour
         charCellComp.InstantiateImage(charData);
     }
 
-    public void ShowCharacterInSlot(int playerIndex, CharacterData character)  {
+    public void ShowCharacterInSlot(int playerIndex, CharacterData character, int spriteIndex)  {
         bool nullChar = (character == null);
-        portraits[playerIndex].GetComponent<Image>().sprite = character.sprite;
+        portraits[playerIndex].GetComponent<Image>().sprite = character.sprite[spriteIndex];
         nameLogos[playerIndex].GetComponent<Image>().sprite = character.charLogo;
         PortraitSwipe(playerIndex);
         mrtComponent[playerIndex].SwitchCharacterModel(playerIndex, character);
@@ -65,10 +67,10 @@ public class CharacterSelectScreen : MonoBehaviour
 
     public void ConfirmCharacter(int playerIndex, CharacterData charData)
     {
-        if (confirmedCharacter[playerIndex] == null)
-        {
-            confirmedCharacter[playerIndex] = charData;
-            //playerSlotsContainer.GetChild(playerIndex).DOPunchPosition(Vector3.down * 3, .3f, 10, 1);
-        }
+        confirmedCharacter[playerIndex] = charData;
+        if (charData == null)
+            assistSelectComponent[playerIndex].HidePanel();
+        else
+            assistSelectComponent[playerIndex].ShowPanel();
     }
 }

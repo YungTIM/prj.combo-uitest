@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: CharDataAsset_02_Robot
   m_EditorClassIdentifier: 
   character: 2
-  sprite: {fileID: 21300000, guid: 3748e138b7fa54dae93ccb2ae0aa0c69, type: 3}
+  sprite:
+  - {fileID: 21300000, guid: 3748e138b7fa54dae93ccb2ae0aa0c69, type: 3}
   spriteZoomMulti: 2.5
   description: 
   charLogo: {fileID: 21300000, guid: 0a906a75dce0f44468ef32d594aba91b, type: 3}

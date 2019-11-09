@@ -18,15 +18,19 @@ public class AssistSelect : MonoBehaviour
     private Player player; // The Rewired Player
 
     //buttons
+    /*
     private bool dpadup;
     private bool dpaddown;
 
     private bool inputConfirm;
     private bool inputCancel;
+    */
 
     //anim data
     private const float tweenDist = -250f;
     private const float tweenTime = 0.5f;
+
+    private bool isHidden = true;
 
 
     // Start is called before the first frame update
@@ -37,9 +41,6 @@ public class AssistSelect : MonoBehaviour
 
     private void OnEnable()
     {
-        currentIndex = 1;
-        ChangeSelected();
-
         //tween in
         Sequence s = DOTween.Sequence();
 
@@ -47,12 +48,13 @@ public class AssistSelect : MonoBehaviour
         int direction = playerId % 2 == 1 ? -1 : 1;
 
         s.Append(transform.DOLocalMoveX(direction * tweenDist, 0));
-        s.Append(transform.DOLocalMoveX(0, tweenTime).SetEase(Ease.OutCubic));
     }
 
     // Update is called once per frame
+    /*
     void Update()
     {
+        if (isHidden) return;
         dpadup = player.GetButtonUp(GameConstants.input_dpad_up);
         dpaddown = player.GetButtonUp(GameConstants.input_dpad_down);
 
@@ -67,17 +69,14 @@ public class AssistSelect : MonoBehaviour
         }
 
         inputConfirm = player.GetButtonUp(GameConstants.input_confirm);
-        inputCancel = player.GetButtonUp(GameConstants.input_cancel);
+        //inputCancel = player.GetButtonUp(GameConstants.input_cancel);
 
         if (inputConfirm)
         {
             HidePanel();
         }
-        else if (inputCancel)
-        {
-            HidePanel();
-        }
     }
+    */
 
     private void ChangeSelected()
     {
@@ -96,9 +95,36 @@ public class AssistSelect : MonoBehaviour
         }
     }
 
-    private void HidePanel()
+    public void ShowPanel()
     {
-        Debug.Log("hidepanel");
+        if (!isHidden)
+        { 
+            HidePanel();
+            //set that shit somewhere
+            Debug.Log(currentIndex + "-ism Selected");
+            return;
+        }
+
+        isHidden = false;
+
+        currentIndex = 1;
+        ChangeSelected();
+
+        //tween in
+        Sequence s = DOTween.Sequence();
+
+        //dumb ternary crap for swiping left or right
+        int direction = playerId % 2 == 1 ? -1 : 1;
+
+        s.Append(transform.DOLocalMoveX(direction * tweenDist, 0));
+        s.Append(transform.DOLocalMoveX(0, tweenTime).SetEase(Ease.OutCubic));
+    }
+
+    public void HidePanel()
+    {
+        if (isHidden) return;
+        isHidden = true;
+        
         //tween out
         Sequence s = DOTween.Sequence();
 
@@ -108,4 +134,12 @@ public class AssistSelect : MonoBehaviour
         s.Append(transform.DOLocalMoveX(0, 0));
         s.Append(transform.DOLocalMoveX(direction * tweenDist, tweenTime).SetEase(Ease.OutCubic));
     }
+
+    //////
+    ///
+    /*
+     * uhh make component for panels associated with the assist select component
+     * when hovered over we can send a message and tell the asssist thing which one we're selecting
+     * bubuhbubas
+     */
 }
