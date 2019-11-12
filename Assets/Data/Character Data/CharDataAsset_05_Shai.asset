@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b60dffd27e44528ad3555b43ade828, type: 3}
+  m_Name: CharDataAsset_05_Shai
+  m_EditorClassIdentifier: 
+  character: 5
+  sprite:
+  - {fileID: 21300000, guid: 14948f90e2789ab45b09543cead4cf86, type: 3}
+  - {fileID: 21300000, guid: d39b7fa1ca8a8a041b95c3fa2b91911a, type: 3}
+  - {fileID: 21300000, guid: c11ae327d11f67243b410890ae7cc371, type: 3}
+  - {fileID: 21300000, guid: 08e1542fd9b5dc74fbaf62f7333c898e, type: 3}
+  spriteZoomMulti: 1.1
+  description: 
+  charLogo: {fileID: 21300000, guid: bfc3df6dfd8679149aeb111992b92c1f, type: 3}

@@ -1,0 +1,1113 @@
+fileFormatVersion: 2
+guid: a27829fff6ea0974ca9cada7775ccc12
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: -3265760408508694305
+    second: jingo_jab02
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: jingo_tpose(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Mesh_Grp
+      parentName: jingo_tpose(Clone)
+      position: {x: -0, y: -0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Head_Grp
+      parentName: Jingo:Mesh_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Tongue
+      parentName: Jingo:Head_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Eyes
+      parentName: Jingo:Head_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:HeadGear
+      parentName: Jingo:Head_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Bandanatail
+      parentName: Jingo:Head_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:TeethScale_Grp
+      parentName: Jingo:Head_Grp
+      position: {x: -0, y: 1.150549, z: 0.17343149}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:TeethClenched
+      parentName: Jingo:TeethScale_Grp
+      position: {x: -0, y: -1.1227599, z: -0.17343149}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:TeethTop_Grp
+      parentName: Jingo:Head_Grp
+      position: {x: -0, y: 1.1759827, z: 0.15663357}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.001, y: 0.001, z: 0.001}
+    - name: Jingo:TeethTop
+      parentName: Jingo:TeethTop_Grp
+      position: {x: -0, y: -1.1340718, z: -0.15663357}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:TeethBot_Grp
+      parentName: Jingo:Head_Grp
+      position: {x: -0, y: 1.1098769, z: 0.16411349}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.001, y: 0.001, z: 0.001}
+    - name: Jingo:TeethBot
+      parentName: Jingo:TeethBot_Grp
+      position: {x: -0, y: -1.1001052, z: -0.16411349}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Armor_Grp
+      parentName: Jingo:Mesh_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Shirt
+      parentName: Jingo:Armor_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Scarf
+      parentName: Jingo:Armor_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Pants
+      parentName: Jingo:Armor_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Tie
+      parentName: Jingo:Armor_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Buttons
+      parentName: Jingo:Armor_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Gloves
+      parentName: Jingo:Armor_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Buckle
+      parentName: Jingo:Armor_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Acc_Grp
+      parentName: Jingo:Mesh_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Pouch
+      parentName: Jingo:Acc_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Star_Mesh
+      parentName: Jingo:Acc_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Kunai_Mesh
+      parentName: Jingo:Acc_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Hook_Mesh
+      parentName: Jingo:Acc_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Bomb_Mesh
+      parentName: Jingo:Acc_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Body_Grp
+      parentName: Jingo:Mesh_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Body
+      parentName: Jingo:Body_Grp
+      position: {x: -0, y: 0.027789058, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:ControlRig
+      parentName: jingo_tpose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:MAIN_Offset_Ctrl_RestPoseGrp
+      parentName: Jingo:ControlRig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:MAIN_Offset_Ctrl
+      parentName: Jingo:MAIN_Offset_Ctrl_RestPoseGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:MAIN_Ctrl_RestPoseGrp
+      parentName: Jingo:MAIN_Offset_Ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:MAIN_Ctrl
+      parentName: Jingo:MAIN_Ctrl_RestPoseGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:MAIN_Inner_Ctrl_RestPoseGrp
+      parentName: Jingo:MAIN_Ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:MainCtrl_grp
+      parentName: Jingo:MAIN_Inner_Ctrl_RestPoseGrp
+      position: {x: 1.4210854e-16, y: 0.8156959, z: -0.2324181}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:MAIN_Inner_Ctrl
+      parentName: Jingo:MainCtrl_grp
+      position: {x: -1.4210854e-16, y: -0.8156959, z: 0.2324181}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:TrajectoryGrp
+      parentName: Jingo:MAIN_Inner_Ctrl
+      position: {x: -0, y: 0, z: 0.010204049}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Trajectory_Ctrl
+      parentName: Jingo:TrajectoryGrp
+      position: {x: -0, y: 0, z: -0.010204049}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:SHJntGrp
+      parentName: Jingo:ControlRig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:driver_TrajectorySHJnt
+      parentName: Jingo:SHJntGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Root
+      parentName: jingo_tpose(Clone)
+      position: {x: 0, y: 0.023092978, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Hook_Root
+      parentName: Jingo:Root
+      position: {x: 0.6681375, y: 0.86053884, z: -0.047913145}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Jingo:RopeJnt
+      parentName: Jingo:Hook_Root
+      position: {x: -2.728484e-14, y: -0.12938328, z: -1.7826095e-12}
+      rotation: {x: -0.0020702814, y: 0, z: -0, w: 0.99999785}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Jingo:HookTipJnt
+      parentName: Jingo:Hook_Root
+      position: {x: 3.2741808e-13, y: 0.20996945, z: -2.1282175e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Jingo:Kunai_Root
+      parentName: Jingo:Root
+      position: {x: 0.66765684, y: 0.86125076, z: -0.048360948}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1e-12, y: 1e-12, z: 1e-12}
+    - name: Jingo:KunaiBottomJnt
+      parentName: Jingo:Kunai_Root
+      position: {x: 35527136, y: -35820748, z: -70837176}
+      rotation: {x: -0.0020702814, y: 0, z: -0, w: 0.99999785}
+      scale: {x: 1e-12, y: 1e-12, z: 1e-12}
+    - name: Jingo:KunaiTopJnt
+      parentName: Jingo:Kunai_Root
+      position: {x: -0, y: 0.20998046, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1e-12, y: 1e-12, z: 1e-12}
+    - name: Jingo:Star_Root
+      parentName: Jingo:Root
+      position: {x: 0.6682731, y: 0.86059576, z: -0.04810392}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Jingo:Tip1Jnt
+      parentName: Jingo:Star_Root
+      position: {x: -0.16298072, y: 0.16512214, z: -3.6379787e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Jingo:Tip2Jnt
+      parentName: Jingo:Star_Root
+      position: {x: -0.16512224, y: -0.16298066, z: -1.4551914e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Jingo:Tip3Jnt
+      parentName: Jingo:Star_Root
+      position: {x: 0.1629805, y: -0.16512223, z: 3.2741808e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Jingo:Tip4Jnt
+      parentName: Jingo:Star_Root
+      position: {x: 0.16512214, y: 0.16298056, z: 3.2741808e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Jingo:Bomb_Root
+      parentName: Jingo:Root
+      position: {x: 0.6684491, y: 0.8593005, z: -0.048065938}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Jingo:TassleJnt
+      parentName: Jingo:Bomb_Root
+      position: {x: -6.9121596e-13, y: 0.14756426, z: -0.10354298}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Jingo:PelvisSHJnt
+      parentName: Jingo:Root
+      position: {x: -0, y: 0.6182982, z: -0.017101388}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Pouch_AuxSHJnt
+      parentName: Jingo:PelvisSHJnt
+      position: {x: -0.0024459942, y: 0.08119996, z: -0.16060628}
+      rotation: {x: 0.6934707, y: -0.51263314, z: 0.34410375, w: 0.37134653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Spine_01SHJnt
+      parentName: Jingo:PelvisSHJnt
+      position: {x: -0.07922735, y: -0.03155509, z: 9.47241e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Spine_TopSHJnt
+      parentName: Jingo:Spine_01SHJnt
+      position: {x: -0.07922735, y: -0.006963322, z: 8.380316e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Neck_01SHJnt
+      parentName: Jingo:Spine_TopSHJnt
+      position: {x: -0.15732583, y: 0.04366925, z: 5.1644598e-17}
+      rotation: {x: 0, y: -0, z: -0.0000000122494335, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Neck_TopSHJnt
+      parentName: Jingo:Neck_01SHJnt
+      position: {x: -0.11455798, y: -0.00079808914, z: 5.0057444e-17}
+      rotation: {x: 0, y: 0, z: 0.0000000122494335, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:RibbonBase_AuxSHJnt
+      parentName: Jingo:Neck_TopSHJnt
+      position: {x: -0.17883621, y: 0.21165039, z: -1.0562605e-16}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Ribbon_01_01SHJnt
+      parentName: Jingo:RibbonBase_AuxSHJnt
+      position: {x: -0.03921101, y: 9.947598e-16, z: -0.021725873}
+      rotation: {x: 0, y: -0.44429052, z: -0, w: 0.8958828}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Ribbon_01_02SHJnt
+      parentName: Jingo:l_Ribbon_01_01SHJnt
+      position: {x: -0.13761066, y: -4.2632563e-16, z: 3.1974422e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Ribbon_01_03SHJnt
+      parentName: Jingo:l_Ribbon_01_02SHJnt
+      position: {x: -0.13761066, y: 1.1368684e-15, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Ribbon_01_04SHJnt
+      parentName: Jingo:l_Ribbon_01_03SHJnt
+      position: {x: -0.13761066, y: 5.684342e-16, z: 3.7303492e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Ribbon_01_05SHJnt
+      parentName: Jingo:l_Ribbon_01_04SHJnt
+      position: {x: -0.13761066, y: 1.1368684e-15, z: -2.664535e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Ribbon_01_06SHJnt
+      parentName: Jingo:l_Ribbon_01_05SHJnt
+      position: {x: -0.13761066, y: 1.2789769e-15, z: 6.217249e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Ribbon_01_07SHJnt
+      parentName: Jingo:l_Ribbon_01_06SHJnt
+      position: {x: -0.13761066, y: -8.5265126e-16, z: 6.9277914e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Ribbon_01_08SHJnt
+      parentName: Jingo:l_Ribbon_01_07SHJnt
+      position: {x: -0.13761066, y: 1.4210854e-16, z: -8.8817837e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Ribbon_01_01SHJnt
+      parentName: Jingo:RibbonBase_AuxSHJnt
+      position: {x: 0.03921101, y: 4.2632563e-16, z: -0.021725873}
+      rotation: {x: 0.8958828, y: -2.3948605e-15, z: -0.44429052, w: -4.8290793e-15}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Ribbon_01_02SHJnt
+      parentName: Jingo:r_Ribbon_01_01SHJnt
+      position: {x: 0.13761066, y: -1.4210854e-15, z: 6.9277914e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Ribbon_01_03SHJnt
+      parentName: Jingo:r_Ribbon_01_02SHJnt
+      position: {x: 0.13761066, y: -1.4210854e-15, z: 7.4606985e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Ribbon_01_04SHJnt
+      parentName: Jingo:r_Ribbon_01_03SHJnt
+      position: {x: 0.13761066, y: -8.5265126e-16, z: 4.0856205e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Ribbon_01_05SHJnt
+      parentName: Jingo:r_Ribbon_01_04SHJnt
+      position: {x: 0.13761066, y: -2.842171e-16, z: 7.9936056e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Ribbon_01_06SHJnt
+      parentName: Jingo:r_Ribbon_01_05SHJnt
+      position: {x: 0.13761066, y: -4.2632563e-16, z: 5.8619773e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Ribbon_01_07SHJnt
+      parentName: Jingo:r_Ribbon_01_06SHJnt
+      position: {x: 0.13761066, y: -4.2632563e-16, z: 2.664535e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Ribbon_01_08SHJnt
+      parentName: Jingo:r_Ribbon_01_07SHJnt
+      position: {x: 0.13761066, y: 0, z: 1.2612133e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Ears_01_01SHJnt
+      parentName: Jingo:Neck_TopSHJnt
+      position: {x: -0.29829127, y: 0.03997481, z: -0.13309264}
+      rotation: {x: 0.0926388, y: -0, z: -0, w: 0.9956998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Ears_01_02SHJnt
+      parentName: Jingo:l_Ears_01_01SHJnt
+      position: {x: -0.09036279, y: -0.018548468, z: 0.0076699094}
+      rotation: {x: 0.07521591, y: -0, z: -0, w: 0.9971673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Ears_01_01SHJnt
+      parentName: Jingo:Neck_TopSHJnt
+      position: {x: -0.29829127, y: 0.03997481, z: 0.13309264}
+      rotation: {x: -5.6724903e-18, y: 0.0926388, z: 0.9956998, w: -6.0969034e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Ears_01_02SHJnt
+      parentName: Jingo:r_Ears_01_01SHJnt
+      position: {x: 0.09036279, y: 0.018548468, z: -0.0076699094}
+      rotation: {x: 0.07521591, y: -0, z: -0, w: 0.9971673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Eyes_01SHJnt
+      parentName: Jingo:Neck_TopSHJnt
+      position: {x: -0.20585161, y: -0.12902895, z: -0.08381888}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Eyes_01SHJnt
+      parentName: Jingo:Neck_TopSHJnt
+      position: {x: -0.20585161, y: -0.12902895, z: 0.0838189}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Face_Jnt
+      parentName: Jingo:Neck_TopSHJnt
+      position: {x: -0.20607902, y: 0.0345589, z: 7.615489e-17}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Cheek_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.206359, y: -0.10545479, z: 0.15291715}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Jingo:r_Cheek_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.20635945, y: -0.10545263, z: 0.1529171}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Brow_In_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.054134402, y: 0.046475213, z: 0.22465004}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Brow_Out_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.14482199, y: 0.038425215, z: 0.16718404}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Brow_Mid_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.096147604, y: 0.06410521, z: 0.20216104}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Brow_In_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.054134406, y: 0.04647379, z: 0.2246502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Brow_Out_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.14482225, y: 0.038425997, z: 0.16718377}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Brow_Mid_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.09614758, y: 0.06410791, z: 0.20216101}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_LidUppel_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.102363996, y: 0.034995213, z: 0.20457204}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_LidLower_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.10132399, y: -0.017254787, z: 0.21280004}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_LidUpper_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.102363795, y: 0.034995213, z: 0.20457213}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_HairSprike02_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.237003, y: -0.14785478, z: -0.14424396}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_HairSprike03_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.179407, y: -0.16257478, z: -0.19037096}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_HairSprike04_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.095461994, y: -0.1821148, z: -0.22374195}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_HairSprike01_Jnt1
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.281068, y: -0.12763478, z: -0.07288295}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_HairSprike00_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.283742, y: -0.11031479, z: 0.049199756}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_HairSprike02_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.23700279, y: -0.14785536, z: -0.14424405}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_HairSprike03_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.17940734, y: -0.16257764, z: -0.19037098}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_HairSprike04_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.09546196, y: -0.18211164, z: -0.2237417}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_HairSprike01_Jnt1
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.28106782, y: -0.12763059, z: -0.07288287}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_HairSprike00_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.28374204, y: -0.11031278, z: 0.049199756}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:HairSprikeMid_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -6.158407e-17, y: -0.17115423, z: -0.24075088}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_UpperLip_Out_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.108051, y: -0.11614479, z: 0.24876404}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_UpperLip_In_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.0458082, y: -0.122574784, z: 0.34966803}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_UpperLip_Out_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.10805124, y: -0.11614187, z: 0.2487636}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_UpperLip_In_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.04580818, y: -0.12257566, z: 0.34966758}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:UpperLip_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 1.2202883e-16, y: -0.11340948, z: 0.3586491}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_UpperLip_Mid_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.0853344, y: -0.11767479, z: 0.30129904}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Jaw_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 2.35302e-17, y: -0.107463576, z: 0.06787174}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_LowerLip_In_Jnt
+      parentName: Jingo:Jaw_Jnt
+      position: {x: -0.0539902, y: -0.060011208, z: 0.2332453}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_LowerLip_In_Jnt
+      parentName: Jingo:Jaw_Jnt
+      position: {x: 0.0539902, y: -0.06000947, z: 0.23324516}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_LowerLip_Out_Jnt
+      parentName: Jingo:Jaw_Jnt
+      position: {x: -0.09154049, y: -0.049301207, z: 0.17970829}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_LowerLip_Out_Jnt
+      parentName: Jingo:Jaw_Jnt
+      position: {x: 0.091540456, y: -0.049305122, z: 0.17970784}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:LowerLip_Jnt
+      parentName: Jingo:Jaw_Jnt
+      position: {x: 1.03673266e-16, y: -0.06492272, z: 0.25716633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:LowerTeeth_Jnt
+      parentName: Jingo:Jaw_Jnt
+      position: {x: 7.090835e-17, y: -0.05714461, z: 0.16527471}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:TongueBase_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 6.244754e-17, y: -0.14908667, z: 0.15003124}
+      rotation: {x: 0.04533799, y: 0.7056518, z: 0.04533799, w: 0.7056518}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:TongueTip_Jnt
+      parentName: Jingo:TongueBase_Jnt
+      position: {x: -0.093901165, y: 2.842171e-16, z: -7.346982e-18}
+      rotation: {x: -0.04533799, y: -0.7056518, z: -0.04533799, w: 0.7056518}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Snout_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 7.022835e-17, y: -0.045142677, z: 0.30667898}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Nose_Jnt
+      parentName: Jingo:Snout_Jnt
+      position: {x: 3.8398568e-17, y: 0.023217952, z: 0.08796948}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Nostril_Jnt
+      parentName: Jingo:Nose_Jnt
+      position: {x: -0.028724, y: -0.010920063, z: -0.013315445}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Nostril_Jnt
+      parentName: Jingo:Nose_Jnt
+      position: {x: 0.028723972, y: -0.010924606, z: -0.013315391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_SnoutSide_Jnt
+      parentName: Jingo:Snout_Jnt
+      position: {x: -0.0987459, y: -0.020902108, z: -0.014214961}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_SnoutSide_Jnt
+      parentName: Jingo:Snout_Jnt
+      position: {x: 0.0987459, y: -0.020897571, z: -0.014214697}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_LidLower_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.10132396, y: -0.017251872, z: 0.21279968}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Lip_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: -0.13279499, y: -0.124251984, z: 0.20276323}
+      rotation: {x: 0.99835753, y: -0, z: 0, w: 0.05729132}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Lip_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.13279462, y: -0.13978216, z: 0.20083025}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_UpperLip_Mid_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 0.08533437, y: -0.11767515, z: 0.30129907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:UpperTeeth_Jnt
+      parentName: Jingo:Face_Jnt
+      position: {x: 7.812342e-17, y: -0.1040242, z: 0.23464853}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Arm_ClavicleSHJnt
+      parentName: Jingo:Spine_TopSHJnt
+      position: {x: -0.14985225, y: -0.02710999, z: -0.05209193}
+      rotation: {x: 0.4508658, y: -0.40392527, z: 0.53887427, w: 0.58581483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Arm_ShoulderSHJnt
+      parentName: Jingo:l_Arm_ClavicleSHJnt
+      position: {x: -0.16382682, y: -0.037269793, z: -0.10714653}
+      rotation: {x: 0.005865141, y: -0.10151826, z: 0.06871135, w: 0.99244064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Arm_ElbowSHJnt
+      parentName: Jingo:l_Arm_ShoulderSHJnt
+      position: {x: -0.17621231, y: 4.2632563e-16, z: -5.3290704e-17}
+      rotation: {x: -0.0033160755, y: -0.00048283482, z: -0.03556299, w: 0.9993619}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Arm_WristSHJnt
+      parentName: Jingo:l_Arm_ElbowSHJnt
+      position: {x: -0.19181572, y: 1.4210854e-16, z: 8.8817837e-17}
+      rotation: {x: 0.0055747596, y: 0.035902858, z: -0.012753175, w: 0.9992584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Star_Driver
+      parentName: Jingo:l_Arm_WristSHJnt
+      position: {x: -0.15485427, y: -0.05512253, z: 0.014928303}
+      rotation: {x: 0.7048634, y: -0.056281254, z: 0.056281254, w: 0.7048634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Hook_Driver
+      parentName: Jingo:l_Arm_WristSHJnt
+      position: {x: -0.1444931, y: -0.060811155, z: 0.035916004}
+      rotation: {x: 0.7048634, y: -0.056281254, z: 0.056281254, w: 0.7048634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Bomb_Driver
+      parentName: Jingo:l_Arm_WristSHJnt
+      position: {x: -0.17283675, y: -0.18464187, z: 0.015885638}
+      rotation: {x: 0.7048634, y: -0.056281254, z: 0.056281254, w: 0.7048634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Kunai_Driver
+      parentName: Jingo:l_Arm_WristSHJnt
+      position: {x: -0.15196297, y: -0.06647392, z: 0.07403893}
+      rotation: {x: 0.7048634, y: -0.056281254, z: 0.056281254, w: 0.7048634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Finger_01_01SHJnt
+      parentName: Jingo:l_Arm_WristSHJnt
+      position: {x: -0.17921013, y: -0.0016166043, z: 0.0578705}
+      rotation: {x: 0.047521498, y: 0.05444994, z: -0.0025943355, w: 0.9973817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Finger_01_02SHJnt
+      parentName: Jingo:l_Finger_01_01SHJnt
+      position: {x: -0.073341936, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Finger_01_03SHJnt
+      parentName: Jingo:l_Finger_01_02SHJnt
+      position: {x: -0.025640674, y: -9.947598e-16, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Finger_02_01SHJnt
+      parentName: Jingo:l_Arm_WristSHJnt
+      position: {x: -0.18070817, y: -0.0016166044, z: -0.008158216}
+      rotation: {x: 0, y: -0.045989603, z: -0, w: 0.9989419}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Finger_02_02SHJnt
+      parentName: Jingo:l_Finger_02_01SHJnt
+      position: {x: -0.084907696, y: 7.105427e-16, z: -1.0658141e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Finger_02_03SHJnt
+      parentName: Jingo:l_Finger_02_02SHJnt
+      position: {x: -0.03892713, y: 0, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Finger_03_01SHJnt
+      parentName: Jingo:l_Arm_WristSHJnt
+      position: {x: -0.16703656, y: -0.011598486, z: -0.074885055}
+      rotation: {x: -0.06026858, y: -0.10350688, z: -0.009363113, w: 0.992757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Finger_03_02SHJnt
+      parentName: Jingo:l_Finger_03_01SHJnt
+      position: {x: -0.07525468, y: 1.4210854e-16, z: -3.907985e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Finger_03_03SHJnt
+      parentName: Jingo:l_Finger_03_02SHJnt
+      position: {x: -0.03537558, y: -7.105427e-16, z: -7.9936054e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Thumb_01_01SHJnt
+      parentName: Jingo:l_Arm_WristSHJnt
+      position: {x: -0.051275246, y: -0.012977295, z: 0.07012034}
+      rotation: {x: 0.33269006, y: 0.4109894, z: -0.1416706, w: 0.8368599}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Thumb_01_02SHJnt
+      parentName: Jingo:l_Thumb_01_01SHJnt
+      position: {x: -0.04978727, y: 0.0015556194, z: -0.0009740978}
+      rotation: {x: -0.08915348, y: 0.0062106526, z: 0.021512948, w: 0.99576616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Thumb_01_03SHJnt
+      parentName: Jingo:l_Thumb_01_02SHJnt
+      position: {x: -0.053277753, y: 7.105427e-16, z: -4.2632563e-16}
+      rotation: {x: -0.024165122, y: 0, z: -0, w: 0.999708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Arm_ElbowSHJnt_twist1
+      parentName: Jingo:l_Arm_ElbowSHJnt
+      position: {x: -0.088106155, y: 2.842171e-16, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Arm_ShoulderSHJnt_twist1
+      parentName: Jingo:l_Arm_ShoulderSHJnt
+      position: {x: -5.3290704e-17, y: -1.4210854e-16, z: -5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Arm_ShoulderSHJnt_twist2
+      parentName: Jingo:l_Arm_ShoulderSHJnt
+      position: {x: -0.088106155, y: 4.2632563e-16, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Arm_ClavicleSHJnt
+      parentName: Jingo:Spine_TopSHJnt
+      position: {x: -0.14985225, y: -0.02710999, z: 0.05209193}
+      rotation: {x: -0.40392527, y: -0.4508658, z: -0.58581483, w: 0.5388742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Arm_ShoulderSHJnt
+      parentName: Jingo:r_Arm_ClavicleSHJnt
+      position: {x: 0.16382682, y: 0.037269793, z: 0.10714653}
+      rotation: {x: 0.0058650672, y: -0.10151823, z: 0.068711266, w: 0.9924407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Arm_ElbowSHJnt
+      parentName: Jingo:r_Arm_ShoulderSHJnt
+      position: {x: 0.17621231, y: -2.2737367e-15, z: 8.976819e-14}
+      rotation: {x: -0.0033159903, y: -0.00048281247, z: -0.035562772, w: 0.9993618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Arm_WristSHJnt
+      parentName: Jingo:r_Arm_ElbowSHJnt
+      position: {x: 0.19181572, y: 1.563194e-15, z: 0}
+      rotation: {x: 0.0055747596, y: 0.035902858, z: -0.012753175, w: 0.9992584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Star_Driver
+      parentName: Jingo:r_Arm_WristSHJnt
+      position: {x: 0.15485427, y: 0.05512253, z: -0.014928303}
+      rotation: {x: -0.7048634, y: -0.056281254, z: -0.056281254, w: 0.7048634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Hook_Driver
+      parentName: Jingo:r_Arm_WristSHJnt
+      position: {x: 0.1444931, y: 0.060811155, z: -0.035916004}
+      rotation: {x: -0.7048634, y: -0.056281254, z: -0.056281254, w: 0.7048634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Bomb_Driver
+      parentName: Jingo:r_Arm_WristSHJnt
+      position: {x: 0.17283675, y: 0.18464187, z: -0.015885638}
+      rotation: {x: -0.7048634, y: -0.056281254, z: -0.056281254, w: 0.7048634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Kunai_Driver
+      parentName: Jingo:r_Arm_WristSHJnt
+      position: {x: 0.15196297, y: 0.06647392, z: -0.07403893}
+      rotation: {x: -0.7048634, y: -0.056281254, z: -0.056281254, w: 0.7048634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Finger_01_01SHJnt
+      parentName: Jingo:r_Arm_WristSHJnt
+      position: {x: 0.17921013, y: 0.0016166043, z: -0.0578705}
+      rotation: {x: 0.047521498, y: 0.05444994, z: -0.0025943355, w: 0.9973817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Finger_01_02SHJnt
+      parentName: Jingo:r_Finger_01_01SHJnt
+      position: {x: 0.073341936, y: -8.5265126e-16, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Finger_01_03SHJnt
+      parentName: Jingo:r_Finger_01_02SHJnt
+      position: {x: 0.025640674, y: 4.2632563e-16, z: -2.4868996e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Finger_02_01SHJnt
+      parentName: Jingo:r_Arm_WristSHJnt
+      position: {x: 0.18070817, y: 0.0016166044, z: 0.008158216}
+      rotation: {x: 0, y: -0.045989603, z: -0, w: 0.9989419}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Finger_02_02SHJnt
+      parentName: Jingo:r_Finger_02_01SHJnt
+      position: {x: 0.084907696, y: -7.105427e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Finger_02_03SHJnt
+      parentName: Jingo:r_Finger_02_02SHJnt
+      position: {x: 0.03892713, y: 1.4210854e-16, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Finger_03_01SHJnt
+      parentName: Jingo:r_Arm_WristSHJnt
+      position: {x: 0.16703656, y: 0.011598486, z: 0.074885055}
+      rotation: {x: -0.060268607, y: -0.10350673, z: -0.009363257, w: 0.992757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Finger_03_02SHJnt
+      parentName: Jingo:r_Finger_03_01SHJnt
+      position: {x: 0.07525468, y: -1.2789769e-15, z: 4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Finger_03_03SHJnt
+      parentName: Jingo:r_Finger_03_02SHJnt
+      position: {x: 0.03537558, y: 8.5265126e-16, z: 7.9936054e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Thumb_01_01SHJnt
+      parentName: Jingo:r_Arm_WristSHJnt
+      position: {x: 0.051275246, y: 0.012977295, z: -0.07012034}
+      rotation: {x: 0.33269012, y: 0.41098893, z: -0.14167044, w: 0.8368601}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Thumb_01_02SHJnt
+      parentName: Jingo:r_Thumb_01_01SHJnt
+      position: {x: 0.04978727, y: -0.0015556194, z: 0.0009740978}
+      rotation: {x: -0.08915333, y: 0.0062109223, z: 0.02151355, w: 0.9957662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Thumb_01_03SHJnt
+      parentName: Jingo:r_Thumb_01_02SHJnt
+      position: {x: 0.053277753, y: -1.4210854e-15, z: -5.684342e-16}
+      rotation: {x: -0.024165122, y: 0, z: -0, w: 0.999708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Arm_ElbowSHJnt_twist1
+      parentName: Jingo:r_Arm_ElbowSHJnt
+      position: {x: 0.088106155, y: 8.5265126e-16, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Arm_ShoulderSHJnt_twist1
+      parentName: Jingo:r_Arm_ShoulderSHJnt
+      position: {x: -9.7699626e-17, y: -4.2632563e-16, z: 5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Arm_ShoulderSHJnt_twist2
+      parentName: Jingo:r_Arm_ShoulderSHJnt
+      position: {x: 0.088106155, y: -7.105427e-16, z: 8.8817837e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Leg_HipSHJnt
+      parentName: Jingo:PelvisSHJnt
+      position: {x: 0.0494498, y: 0.03396175, z: -0.09206804}
+      rotation: {x: 0.00170207, y: 0.77646184, z: -0.61431897, w: -0.14041483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Leg_Knee1SHJnt
+      parentName: Jingo:l_Leg_HipSHJnt
+      position: {x: -0.2728734, y: -2.4868996e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0.45276457, z: -0, w: 0.8916301}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Leg_Knee2SHJnt
+      parentName: Jingo:l_Leg_Knee1SHJnt
+      position: {x: -0.1352481, y: 3.5527136e-17, z: 2.1316282e-16}
+      rotation: {x: 0.0126346955, y: 0.46723607, z: 0.023896972, w: 0.88371927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Leg_AnkleSHJnt
+      parentName: Jingo:l_Leg_Knee2SHJnt
+      position: {x: -0.11786026, y: -1.0658141e-16, z: 3.5527136e-17}
+      rotation: {x: -0.033452846, y: -0.12905347, z: 0.055330418, w: 0.9895276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Leg_BallSHJnt
+      parentName: Jingo:l_Leg_AnkleSHJnt
+      position: {x: -0.09868588, y: -0.008667076, z: 0.082548685}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Leg_ToeSHJnt
+      parentName: Jingo:l_Leg_BallSHJnt
+      position: {x: -0.090326816, y: 1.4210854e-16, z: 1.2321309e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Leg_Knee1SHJnt_twist1
+      parentName: Jingo:l_Leg_Knee1SHJnt
+      position: {x: -0.06762405, y: 1.7763567e-16, z: 1.7763567e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Leg_HipSHJnt_twist1
+      parentName: Jingo:l_Leg_HipSHJnt
+      position: {x: 7.105427e-17, y: -7.105427e-17, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:l_Leg_HipSHJnt_twist2
+      parentName: Jingo:l_Leg_HipSHJnt
+      position: {x: -0.1364367, y: -1.7763567e-16, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Leg_HipSHJnt
+      parentName: Jingo:PelvisSHJnt
+      position: {x: 0.0494498, y: 0.03396175, z: 0.09206804}
+      rotation: {x: -0.77646184, y: 0.0017020628, z: -0.1404149, w: 0.6143189}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Leg_Knee1SHJnt
+      parentName: Jingo:r_Leg_HipSHJnt
+      position: {x: 0.2728734, y: 2.1316282e-16, z: -5.3290704e-17}
+      rotation: {x: 0, y: -0.45276457, z: -0, w: 0.8916301}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Leg_Knee2SHJnt
+      parentName: Jingo:r_Leg_Knee1SHJnt
+      position: {x: 0.1352481, y: 1.7763567e-16, z: -1.0658141e-16}
+      rotation: {x: 0.012634696, y: 0.46723607, z: 0.023896972, w: 0.88371927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Leg_AnkleSHJnt
+      parentName: Jingo:r_Leg_Knee2SHJnt
+      position: {x: 0.11786026, y: -1.7763567e-16, z: -1.02140514e-16}
+      rotation: {x: -0.033452794, y: -0.12905349, z: 0.055330426, w: 0.9895275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Leg_BallSHJnt
+      parentName: Jingo:r_Leg_AnkleSHJnt
+      position: {x: 0.09868588, y: 0.008667076, z: -0.082548685}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Leg_ToeSHJnt
+      parentName: Jingo:r_Leg_BallSHJnt
+      position: {x: 0.090326816, y: -1.4210854e-16, z: -4.0113168e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Leg_Knee1SHJnt_twist1
+      parentName: Jingo:r_Leg_Knee1SHJnt
+      position: {x: 0.06762405, y: -1.4210854e-16, z: 1.9539925e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Leg_HipSHJnt_twist1
+      parentName: Jingo:r_Leg_HipSHJnt
+      position: {x: 1.4210854e-16, y: 7.105427e-17, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:r_Leg_HipSHJnt_twist2
+      parentName: Jingo:r_Leg_HipSHJnt
+      position: {x: 0.1364367, y: 7.105427e-17, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Tail_01_01SHJnt
+      parentName: Jingo:PelvisSHJnt
+      position: {x: 0.0554705, y: 0.17036809, z: -1.3581962e-16}
+      rotation: {x: 0, y: 0, z: -0.8255015, w: 0.5643999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Tail_01_02SHJnt
+      parentName: Jingo:Tail_01_01SHJnt
+      position: {x: -0.1320968, y: 0.0019424554, z: 2.788281e-16}
+      rotation: {x: 0, y: 0, z: 0.18214421, w: 0.98327184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Tail_01_03SHJnt
+      parentName: Jingo:Tail_01_02SHJnt
+      position: {x: -0.13839516, y: -0.0562882, z: -2.8558894e-16}
+      rotation: {x: 0, y: 0, z: 0.465509, w: 0.8850432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Tail_01_04SHJnt
+      parentName: Jingo:Tail_01_03SHJnt
+      position: {x: -0.09522224, y: -0.05399756, z: 1.5054531e-16}
+      rotation: {x: 0, y: 0, z: 0.54923314, w: 0.83566916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Tail_01_05SHJnt
+      parentName: Jingo:Tail_01_04SHJnt
+      position: {x: -0.1050531, y: -0.06316156, z: 3.7754475e-17}
+      rotation: {x: 0, y: 0, z: 0.5130748, w: 0.8583439}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jingo:Tail_01_06SHJnt
+      parentName: Jingo:Tail_01_05SHJnt
+      position: {x: -0.091709495, y: -0.081010886, z: -2.309519e-16}
+      rotation: {x: 0, y: 0, z: 0.4038699, w: 0.9148165}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

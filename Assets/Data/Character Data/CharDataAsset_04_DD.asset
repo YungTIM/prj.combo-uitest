@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b60dffd27e44528ad3555b43ade828, type: 3}
+  m_Name: CharDataAsset_04_DD
+  m_EditorClassIdentifier: 
+  character: 4
+  sprite:
+  - {fileID: 21300000, guid: 075f0043e18d60b4498d1f3e85831df1, type: 3}
+  - {fileID: 21300000, guid: 983a256457253ec41a7a10ea77be2125, type: 3}
+  - {fileID: 21300000, guid: 21de3a9ef1944504480b97d01c92d8d0, type: 3}
+  - {fileID: 21300000, guid: f560f86762ebd6a45bc523747ab48a28, type: 3}
+  spriteZoomMulti: 1
+  description: 
+  charLogo: {fileID: 21300000, guid: 4709e58b1b5d27243b21104271e2bcb9, type: 3}

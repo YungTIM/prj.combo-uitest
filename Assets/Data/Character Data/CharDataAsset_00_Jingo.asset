@@ -15,7 +15,9 @@ MonoBehaviour:
   character: 0
   sprite:
   - {fileID: 21300000, guid: 5a57bf9970f1e4928aab321e813b7281, type: 3}
-  - {fileID: 21300000, guid: 1e886e8ff151148cebcd5cb94616d13b, type: 3}
+  - {fileID: 21300000, guid: eac9b123ff9d3af4cbfa45c786eac43c, type: 3}
+  - {fileID: 21300000, guid: fdb632275525f454ea1ee5f7f3f90ffc, type: 3}
+  - {fileID: 21300000, guid: 2a4908742ef826f4abf55d24d92ae951, type: 3}
   spriteZoomMulti: 1
   description: 
   charLogo: {fileID: 21300000, guid: 135c5256aa18249e196c37cf5ab8ae85, type: 3}
